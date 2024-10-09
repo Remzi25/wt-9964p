@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="tr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css"
+    />
+    <title>WT-9964P</title>
+  </head>
+
+  <body>
+    <header>
+      <nav class="navbar navbar-expand-lg shadow py-4">
+        <div class="container">
+          <a class="navbar-brand fw-bold" href="#">Start Bootstrap</a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNav"
+            aria-controls="navbarNav"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ms-auto">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#"
+                  >Features</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Download</a>
+              </li>
+              <li class="nav-item">
+                <button
+                  type="button"
+                  class="btn btn-primary rounded-5 ms-3"
+                  data-bs-toggle="modal"
+                  data-bs-target="#exampleModal"
+                >
+                  Send Feedback
+                </button>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+
+      <!-- Modal -->
+      <div
+        class="modal fade"
+        id="exampleModal"
+        tabindex="-1"
+        aria-labelledby="exampleModalLabel"
+        aria-hidden="true"
+      >
+        <div class="modal-dialog">
+            <div class="container">
+                <div class="modal-content">
+                    <div class="modal-header">
+                      <h1 class="modal-title fs-5 text-white" id="exampleModalLabel">
+                        Send Feedback
+                      </h1>
+                      <button
+                        type="button"
+                        class="btn-close"
+                        data-bs-dismiss="modal"
+                        aria-label="Close"
+                      ></button>
+                    </div>
+                    <div class="modal-body">
+                    </div>
+                    <div class="form-floating mb-3 p-1">
+                      <input type="text" class="form-control" id="name" placeholder="Full Name">
+                      <label for="name">Full name</label>
+                    </div>
+                        <div class="form-floating mb-3 p-1">
+                            <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com">
+                            <label for="floatingInput">Email address</label>
+                    </div>
+                    <div class="form-floating mb-3 p-1">
+                        <input type="tel" class="form-control" id="phone" placeholder="Phone Number">
+                        <label for="phone">Phone Number</label>
+                </div>
+                <div class="form-floating">
+                    <textarea class="form-control mb-3" style="height: 100px;" placeholder="Message" id="message"></textarea>
+                    <label for="message">Message</label>
+                  </div>
+                    <button type="button" class="btn btn-primary btn-lg rounded-5 p-1 mb-3">Submit</button>
+                </div>
+                  </div>
+                </div>
+            </div>
+      </div>
+    </header>
+
+    <!-- herosection -->
+
+    <div class="herosection-container mb-5">
+        <div class="container">
+          <div class="row justify-content-center align-items-center">
+            <div class="col-lg-5 text-center text-lg-start">
+              <div class="mt-5">
+                <h1 class="display-1">Showcase your app beautifully.</h1>
+              </div>
+              <div class="mt-4">
+                <p class="fs-5">Launch your mobile app landing page faster with this free, open source theme from Start Bootstrap!</p>
+              </div>
+              <div class="download">
+                <div class="row">
+                  <div class="col-lg-auto pb-3">
+                    <img src="/assets/img/app-store-svg.svg" alt="" class=" img-google img-fluid">
+                  </div>
+                  <div class="col-lg-auto">
+                    <img src="/assets/img/app-store-svg.svg" alt="" class=" img-apple img-fluid">
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-7 d-flex justify-content-center align-items-center mt-5">
+              <div class="circle d-flex justify-content-center align-items-center">
+                <div class="img-div">
+                  <img src="/assets/img/phone-screen.png" alt="" class="phone">
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+    </div>
+
+
+    <!-- testimonial container -->
+
+    <div class="testimonial mt-2">
+      <div class="container px-5 py-5 text-center">
+        <div class="p-5">
+          <h2 class="text-white display-6 fw-bold">"An intuitive solution to a common problem that we all face, wrapped up in a single app!"</h2>
+        </div>
+        <div class="div">
+          <img src="/assets/img/logo-svg.svg" class="img-fluid" style="height: 3rem;" alt="">
+        </div>
+      </div>
+
+    </div>
+
+    <!-- features -->
+
+    <div class="features-container mt-5 mb-5">
+      <div class="container d-flex justify-content-center align-items-center mt-5">
+        <div class="row justify-content-center align-items-center">
+          <div class="col-12 col-lg-4 d-flex justify-content-center align-items-center">
+            <div class="circle2 d-flex justify-content-center align-items-center">
+              <div class="mt-5">
+                <img src="/assets/img/phone-screen.png" class="ft-phone d-flex justify-content-center align-items-center ms-lg-5" alt="">
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-lg-8 mt-5">
+            <div class="row justify-content-center align-items-center mt-5">
+              <div class="col-12 col-md-6 text-center">
+                <i class="bi bi-phone"></i>
+                <h3>Device Mockups</h3>
+                <p class="text-muted">Ready to use HTML/CSS device mockups, no Photoshop required!</p>
+              </div>
+              <div class="col-12 col-md-6 text-center">
+                <i class="bi bi-camera"></i>
+                <h3>Flexible Use</h3>
+                <p class="text-muted">Put an image, video, animation, or anything else in the screen!</p>
+              </div>
+              <div class="col-12 col-md-6 text-center">
+                <i class="bi bi-gift"></i>
+                <h3>Free to Use</h3>
+                <p class="text-muted">As always, this theme is free to download and use for any purpose!</p>
+              </div>
+              <div class="col-12 col-md-6 text-center">
+                <i class="bi bi-patch-check"></i>
+                <h3>Open Source</h3>
+                <p class="text-muted">Since this theme is MIT licensed, you can use it commercially!</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- basic-features -->
+
+    <div class="basic-feaures bg-light">
+      <div class="container mt-5">
+        <div class="row mt-5 justify-content-center align-items-center p-5">
+          <div class="col-12 col-lg-5">
+            <h2 class="display-4 mb-4">Enter a new age of web design</h2>
+            <p>This section is perfect for featuring some information about your application, why it was built, the problem it solves, or anything else! There's plenty of space for text here, so don't worry about writing too much.</p>
+          </div>
+          <div class="col-12 col-lg-7 text-center">
+            <img src="/assets/img/basic-features-img.jpg" class="img-basic img-fluid rounded-circle" alt="">
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- call-to-action -->
+
+    <div class="call-to">
+      <div class="container call-to-container">
+        <div class="row justify-content-center align-items-center">
+          <div class="col col-call-to">
+            <h2 class="display-1 text-white">Stop waiting.</h2>
+            <h2 class="display-1 text-white">Start building.</h2>
+            <button type="button" class="btn btn-outline-light btn-lg rounded-pill btn-call-to">Download For Free</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- app-badge -->
+
+    <div class="app-badge-container">
+      <div class="container text-center app-badge">
+        <h2 class="text-center text-white">Get the app now!</h2>
+        <div class="mt-3">
+              <img src="/assets/img/app-store-svg.svg" class="img-fluid" alt="">
+              <img src="/assets/img/app-store-svg.svg" class="img-fluid" alt="">
+      </div>
+    </div>
+  </div>
+
+  <!-- Footer-->
+  <footer class="bg-black text-center py-5">
+    <div class="container px-5">
+        <div class="text-white-50 small">
+            <div class="mb-2">&copy; Remzi Demir 2024. All Rights Reserved.</div>
+            <a href="#!" class="text-decoration-none text-white-50">Privacy</a>
+            <span class="mx-1">&middot;</span>
+            <a href="#!" class="text-decoration-none text-white-50">Terms</a>
+            <span class="mx-1">&middot;</span>
+            <a href="#!" class="text-decoration-none text-white-50">FAQ</a>
+        </div>
+    </div>
+</footer>
+
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

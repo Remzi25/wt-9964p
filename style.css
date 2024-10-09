@@ -1,0 +1,112 @@
+/* .navbar{
+    position: fixed !important;
+    width: 100% !important;
+    margin-bottom: 100px !important;
+    margin-top: 0px;
+} */
+
+/* .herosection-container{
+    padding-top: 100px;
+} */
+
+
+.modal-header{
+    background-image: linear-gradient(to right, rgb(70, 70, 255) , rgb(255, 94, 255));
+} 
+
+.phone{
+    height: 475px;
+    width: auto;
+}
+
+
+.circle{
+    content:"";
+    width: 450px;
+    height: 450px;
+    background-image: linear-gradient(to right, rgb(70, 70, 255) , rgb(255, 94, 255));
+    border-radius: 50%;
+    position: relative;
+}
+
+.circle::before{
+    content: "x";
+    position: absolute;
+    color: blue;
+    left: 0;
+    bottom: 0;
+    font-size: 25px;
+    font-weight: 1000;
+}
+
+.circle::after{
+    content: ".";
+    position: absolute;
+    color: blue;
+    right: 0;
+    top: 0;
+    font-size: 75px;
+}
+
+.testimonial{
+    background-image: linear-gradient(to right, rgb(70, 70, 255) , rgb(255, 94, 255));
+}
+
+.circle2{
+    content:"";
+    width: 400px;
+    height: 400px;
+    background-image: linear-gradient(to right, rgb(70, 70, 255) , rgb(255, 94, 255));
+    border-radius: 50%;
+    position: relative;
+}
+
+.ft-phone{
+    width: auto;
+    height: 500px;
+}
+.circle2::before{
+    content: "x";
+    position: absolute;
+    color: blue;
+    left: 0;
+    bottom: 0;
+    font-size: 25px;
+    font-weight: 1000;
+}
+
+.circle2::after{
+    content: ".";
+    position: absolute;
+    color: blue;
+    right: 0;
+    top: 0;
+    font-size: 75px;
+}
+
+.bi{
+    font-size: 75px;
+}
+
+.call-to{
+    background-image: url(/assets/img/bg-image.jpg);
+    height: 700px;
+    width: auto;
+}
+
+.btn-call-to{
+    width: 250px !important;
+}
+
+.col-call-to{
+    margin-top: 225px !important;
+}
+
+.app-badge-container{
+    background-image: linear-gradient(to right, rgb(70, 70, 255) , rgb(255, 94, 255));
+    height: 250px;
+}
+
+.app-badge{
+    padding-top: 75px;
+}
